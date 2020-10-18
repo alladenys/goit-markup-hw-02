@@ -64,8 +64,8 @@ h5{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--black-cl);
-    background-color: #F5F4FA;
+    color: var(--whait-cl);
+    background-color:var(--accent-cl);
 }
 
 

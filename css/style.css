@@ -114,6 +114,7 @@ h5{
     letter-spacing: 0.03em;
     color: var(--whait-cl);
     text-decoration: none;
+    font-style: normal;
 }
 .contacts {
     font-size: 14px;

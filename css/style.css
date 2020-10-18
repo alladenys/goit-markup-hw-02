@@ -118,3 +118,17 @@ h5{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+.project-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--black-cl:)
+}
+.project-type {
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color:var(--main-text-cl)
+}

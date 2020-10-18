@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css"/>
 </head>
 <body>
     <header>
-        <nav>
-            <span class="logo1">Web</span><span class="logo2">Studio</span>
+        <nav id="studio">
+            <a href="#studio">
+                <span class="logo1">Web</span><span class="logo2">Studio</span>
+            </a>
             <ul class="list">  
                <li><a class="link" href="#studio">Студия</a></li>
                <li><a class="link" href="portfolio.html">Портфолио</a></li>
                <li><a class="link" href="#contacts">Контакты</a></li>
+            </ul> 
+            <ul class="list">
                <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                <li><a class="link" href="tel:++380961111111">+38 096 111 11 11</a></li>
             </ul>  
@@ -26,7 +31,7 @@
             <button class="btn" type="button">Заказать услугу</button>
         </div>
     </section>
-    <section id="studio">
+    <section>
         <ul class="list">
             <li>
                 <h3>Внимание к деталям</h3>
@@ -83,7 +88,9 @@
     </section>
     <div class="backgraund">
         <footer id="contacts">
-            <span lang="en" class="logo1">Web</span><span lang="en" class="logo3">Studio</span>
+            <a href="#studio">
+                <span lang="en" class="logo1">Web</span><span lang="en" class="logo3">Studio</span>
+            </a>
             <ul class="list">
                <li> <address class="adress">г. Киев, пр-т Леси Украинки, 26</address></li>
                <li><a class="link contacts" href="mailto:info@example.com">info@example.com</a></li>
